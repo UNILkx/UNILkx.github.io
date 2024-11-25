@@ -176,10 +176,16 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
-              
 
-              <time title="创建时间：2023-04-02 23:02:31 / 修改时间：23:08:01" itemprop="dateCreated datePublished" datetime="2023-04-02T23:02:31+08:00">2023-04-02</time>
+              <time title="创建时间：2023-04-02 23:02:31" itemprop="dateCreated datePublished" datetime="2023-04-02T23:02:31+08:00">2023-04-02</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2024-11-25 19:55:06" itemprop="dateModified" datetime="2024-11-25T19:55:06+08:00">2024-11-25</time>
+              </span>
 
           
 
@@ -194,77 +200,14 @@
       
           <h3 id="安装虚拟机Ubuntu"><a href="#安装虚拟机Ubuntu" class="headerlink" title="安装虚拟机Ubuntu"></a>安装虚拟机Ubuntu</h3><p><a target="_blank" rel="noopener" href="https://blog.csdn.net/weixin_43848614/article/details/117260662">安装Ubuntu20.04教程</a></p>
 <p>过程按照上述链接文章可以解决大部分问题。</p>
-<h3 id="打开Linux命令行窗口"><a href="#打开Linux命令行窗口" class="headerlink" title="打开Linux命令行窗口"></a>打开Linux命令行窗口</h3><p>快捷键<code>Ctrl + Alt + T</code>,对应可以</p>
-<ol>
-<li><p><code>cd /home</code> 打开路径对应文件夹</p>
-<blockquote>
-<p>可以用<code>pwd</code>观察现在所在的位置，用<code>ll</code>观察该路径下所有文件</p>
-</blockquote>
-</li>
-<li><p><code>mkdir learn_linux</code> 创建新的文件夹</p>
-</li>
-<li><p><code>cd learn_linux</code> 进入到创建的文件夹</p>
-</li>
-<li><p><code>touch a</code> 创建文件a（不要带拓展名）</p>
-<blockquote>
-<p>与windows不同，Linux文件一般不带后缀，（可以理解文件内容存放了文件的属性）</p>
-</blockquote>
-</li>
-<li><p><code>cat a</code> 查看a中内容（由于此时文件没有任何内容，故实际上没有什么反应）</p>
-</li>
-<li><p><code>vi a</code> 以命令模式进入文件</p>
-</li>
-<li><table>
-<thead>
-<tr>
-<th>指令</th>
-<th>作用</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>i</td>
-<td>进入输入模式，此时对文件进行正常的输入修改</td>
-</tr>
-<tr>
-<td>q</td>
-<td>退出输入模式，进入命令模式，移动游标进行修改<br />或者在底线命令模式中，在输入w保存文件后，输入q退出</td>
-</tr>
-<tr>
-<td>:</td>
-<td>一般是对文件进行最后的保存退出操作</td>
-</tr>
-</tbody></table>
-<img src="D:\Typora\imgs\image-20230401001756385.png" alt="image-20230401001756385" style="zoom:50%;" />
-</li>
-<li><p><code>cat a</code>查看文件内容</p>
-</li>
-<li><p><code>cp /home/lkx/linux_learn/a /home/lkx</code> 将指定文件复制到指定位置</p>
-<blockquote>
-<p>cp OPS OPD  即cp 源文件 目的路径</p>
-</blockquote>
-</li>
-<li><p><code>mv /home/lkx/linux_learn/a /home/lkx</code>移动指定文件到指定位置</p>
-</li>
-<li><p>返回桌面，<code>ll</code>查看桌面文件</p>
-</li>
-<li><p><code>rm 文件名</code> 删除文件</p>
-</li>
-<li><p><code>rm -r</code></p>
-<blockquote>
-<p>-r 从该文件夹向下递归，不管多少级目录，逐一删除</p>
-<p>-f 强行删除，没有提示</p>
-<p>-i 删除前逐一询问确定</p>
-<p>rm -r * 删除当前目录下所有文件和目录</p>
-</blockquote>
-</li>
-</ol>
-<h3 id="软件包更新"><a href="#软件包更新" class="headerlink" title="软件包更新"></a>软件包更新</h3><blockquote>
-<p>关于 <code>bin</code>文件夹 和 <code>etc</code>文件夹，要注意当前所在的目录。</p>
-<p>一般来说，对某些非配置文件、文件夹修改，都是在<code>/home/user</code>目录下的，一般称呼为<code>家目录</code></p>
-<p>而对配置文件，或者对下载的软件进行管理，则需要在<code>根目录</code>中进行操作，</p>
-<img src="D:\Typora\imgs\image-20230401180603555.png" alt="image-20230401180603555" style="zoom:33%;margin:30px;" />
-</blockquote>
-
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2023/04/02/linux%E5%AD%A6%E4%B9%A0%E7%AE%80%E7%BA%AA/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
@@ -462,7 +405,7 @@
 <div class="copyright">
   
   &copy; 
-  <span itemprop="copyrightYear">2023</span>
+  <span itemprop="copyrightYear">2024</span>
   <span class="with-love">
     <i class="fa fa-heart"></i>
   </span>
